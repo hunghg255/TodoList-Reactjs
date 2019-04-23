@@ -1,0 +1,30 @@
+.TodoFilter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10px;
+    position: relative;
+}
+.TodoFilter span {
+    font-weight: bold;
+}
+.TodoFilter Button {
+    border: 1px solid rgb(238, 87, 67);
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 15px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.TodoFilter Button:hover {
+    border-color: green;
+}
+
+.TodoFilter Button:nth-child(5){
+    background: #bd0d0d;
+    color: white;
+    position: absolute;
+    right: 2rem;
+}
